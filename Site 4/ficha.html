@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ficha</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <hr>
+    <form action="salvar.html" method="get">
+        <fieldset>
+            <br>
+            <legend>DADOS PESSOAIS</legend>
+            <label>Nome:</label> <input type="text" name="nome">
+            <br>
+            <br>
+            <label>Endereço:</label> <input type="text" name="endereço">
+            <br>
+            <br>
+            <label>Cidade:</label> <input type="text" name="cidade">
+            <br>
+            <br>
+            <label>Estado:</label> 
+            <select>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+        </fieldset>
+        <br>
+        <hr>
+        <fieldset>
+            <legend>DADOS PROFISSIONAIS</legend>
+            <br>
+            <fieldset>
+                <legend>NATUREZA DO CARGO</legend>
+                <input type="radio" name="1"><label>Gerência</label>
+                <input type="radio" name="1"><label>Financeiro</label>
+                <input type="radio" name="1"><label>Recepção</label>
+                <input type="radio" name="1"><label>Administrativo</label>
+                <input type="radio" name="1"><label>Jurídico</label>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>ÁREA DE INTERESSE</legend>
+                <input type="checkbox" name="computação"> <label>Computação</label>
+                <input type="checkbox" name="biologia"> <label>Biologia</label>
+                <input type="checkbox" name="meio ambiente"> <label>Meio ambiente</label>
+                <input type="checkbox" name="engenharia"> <label>Engenharia</label>
+                <br>
+                <h3>Mini curriculo</h3>
+                <textarea name="mini curriculo" id="" cols="60" rows="10"></textarea>
+            </fieldset>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+   </form>
+</body>
+</html>

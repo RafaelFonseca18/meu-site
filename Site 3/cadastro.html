@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<style>
+    body
+    {
+        background-color: rgb(75, 75, 75);
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    fieldset
+    {           /*T*/ /*L*/ /*B*/ /*R*/
+        margin:  1.5% 41.6%  0.0% 41.6%;
+                /*T*/ /*L*/ /*B*/ /*R*/
+        padding: auto;
+    }
+    h1
+    {
+        background-color: rgb(150, 0, 0);
+        color: white;
+        margin: 4% 0% 0% 0%;
+        padding: 0% 10px 0% 10px;
+        text-align: center;
+    }
+    h3
+    {
+        text-align: center;
+        color: white;
+    }
+    .textareas
+    {
+        display: block;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .datanasc
+    {
+        display: block;
+        margin: 0% 0% 0% 15%;
+        padding: 2% 2% 2% 2%;
+    }
+    .botaoenviar
+    {
+        display: block;
+        margin: -11.5% 0% 0% 65%;
+        padding: 3% 3% 3% 3%;
+    }
+</style>
+<body>
+<h1>Cadastro de Usuário</h1>
+<form action="gravar.html" method="get">
+    <fieldset>
+        <h3>Insira seu nome:</h3>
+        <input class="textareas" type="text" id="nomejs" name="nome">   
+
+        <h3>Insira sua senha:</h3>
+        <input class="textareas" type="password" id="senhajs" name="senha">
+
+        <h3>Digite seu e-mail:</h3>
+        <input class="textareas" type="email" id="emailjs" name="email">
+
+        <h3>Insira sua data de nascimento</h3>
+        <input class="datanasc" type="date" id="datanascjs" name="data de nascimento">
+
+        <input class="botaoenviar" type="submit" value="enviar">
+    </fieldset>
+</form>
+</body>
+</html>
